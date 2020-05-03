@@ -75,7 +75,7 @@ def main():
             elif inpt == 'm':
                 service = input("What is the name of your service?\n")
                 print("Manually enter the password or randomly generate password?\n")
-                print("---> Type 1 for mannual input\n")
+                print("---> Type 1 for manual input\n")
                 print("---> Type 2 to randomly generate\n")
                 
                 choice = input("What is your choice? ")
