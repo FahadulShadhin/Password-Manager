@@ -58,7 +58,7 @@ def main():
         while True:
             print("\n")
             print("PASSWORD MANAGER")
-            print("*****************************************")
+            print("******************************************")
             print(">> Type q to quit.")
             print(">> Type m to generate a new password.")
             print(">> Type d to delete an old password.")
