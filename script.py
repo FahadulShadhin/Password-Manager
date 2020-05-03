@@ -45,7 +45,7 @@ def delete_password(service):
 
 def main():
     # It is the master password to log in to the database and access other passwords.
-    # It is just a sample password. will change it for actual use.
+    # It is just a sample password. Will change it for actual use.
     ADMIN_PASSWORD = "123" 
 
     connect = input("Enter password to generate password! ")
