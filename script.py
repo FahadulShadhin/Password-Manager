@@ -105,7 +105,7 @@ def main():
                     print("Database is empty.")
                 else:
                     for i in range(len(data_list)):
-                        print("Service Name: "+data_list[i][1] +" --- "+ "Password: "+ show_database()[i][0])
+                        print("Service Name: "+ data_list[i][1] +" --- "+ "Password: "+ data_list[i][0])
 
             else:
                 print("What did you mean?")
