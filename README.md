@@ -11,6 +11,7 @@ This is a python program to create secure passwords and manage them properly. Cr
 ### Requirements:
 * clone the repo or download zip
 <p><img src="images/example1.png"></p>
+
 ```
 https://github.com/FahadulShadhin/Password-Manager.git
 ```
