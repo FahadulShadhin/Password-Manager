@@ -9,7 +9,7 @@ This is a python program to create secure passwords and manage them properly. Cr
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### Requirements:
-* clone the ripo or download zip
+* clone the repo or download zip
 ```
 https://github.com/FahadulShadhin/Password-Manager.git
 ```
