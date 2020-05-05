@@ -24,4 +24,4 @@ python3.7 script.py
 ```
 ### An Example:
 The program looks like this...
-<p><img src="images/screenshot1.png" width=500 height=650></p>
+<p><img src="images/example.png" width=500 height=650></p>
