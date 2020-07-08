@@ -20,24 +20,20 @@ def generate_password():
 
     return password
 
-# Adding generated password in the databese.
 def add_password(password, service):
     cur.execute("INSERT INTO password_holder VALUES(?, ?)", (password, service))
     conn.commit()
 
-# Show password for a given service name.
 def show_password(service):
     cur.execute("SELECT * FROM password_holder WHERE service_name=?", (service,))
     get_pass = cur.fetchall()
     return get_pass
 
-# To display the whole database.
 def show_database():
     cur.execute("SELECT * FROM password_holder")
     get_all = cur.fetchall()
     return get_all
 
-# Delete old password for a given service.
 def delete_password(service):
     cur.execute("DELETE FROM password_holder WHERE service_name=?", (service,))
     conn.commit()
@@ -45,7 +41,7 @@ def delete_password(service):
 
 def main():
     # It is the master password to log in to the database and access other passwords.
-    # It is just a sample password. Will change it for actual use.
+    # It is just a sample password. Should change it for actual use.
     ADMIN_PASSWORD = "123" 
 
     connect = input("Enter password to generate password! ")
